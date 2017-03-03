@@ -5,29 +5,26 @@ exclude:
 
 name: 王同学要早睡早起
 host: localhost
-desc: 发呆的run
+desc: 一个站在十字路口，寻找诗和远方的工科男。
 
 custom:
     category:
-        default: Default Category
-        another: Another Category
+        experience: 问题和经验
+        thinking: 闭门思考
     categories:
-      - name:  default
-        title: Default Category
+      - name:  experience
+        title: 问题和经验
 
-      - name:  another
-        title: Another Category
-
-    scrollingLoadCount: 2                          # 滚屏自动加载文章数量，“0”为关闭
-
+      - name:  thinking
+        title: 闭门思考
 meta:
     author:
         name: rainwang
         email: rainwang1995@gmail.com
         disqus: your-disqus-short-name              # Disqus缩略标识
         gcse: 000346898720731947188:13h55x32l0y     # Google自定义搜索标识ID
-        github:https://github.com/rainwang1995               # GitHub账号
-        gravatar: 1cd8c12591616d8c22aaa624f8c07834  # Gravatar头像标识
+        github: rainwang1995               # GitHub账号
+        gravatar: e7bfc1ac519d1aedb64ca74e025c37ff   # Gravatar头像标识
 
     disqus: disqus.com/embed.js                     # Disqus评论的JS地址
     gapi: http://www.google.com/jsapi               # Google API地址
